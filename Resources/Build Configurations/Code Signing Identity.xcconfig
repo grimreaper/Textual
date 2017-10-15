@@ -3,7 +3,7 @@
 // and Debug builds of Textual. This is all you should have to edit.
 // This value is automatically inherited by all frameworks and plugins.
 
-CODE_SIGN_IDENTITY = Eitan Adler Signing
+CODE_SIGN_IDENTITY = Mac Developer
 
 // Set these values to empty
 
