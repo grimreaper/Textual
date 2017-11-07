@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -5317,7 +5317,6 @@
 						};
 					};
 					4C1DC5511580420500A47BC9 = {
-						DevelopmentTeam = 85NW4RVQF6;
 						DevelopmentTeamName = "Codeux Software, LLC";
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -5342,7 +5341,7 @@
 				};
 			};
 			buildConfigurationList = 4C1DC54C1580420500A47BC9 /* Build configuration list for PBXProject "Main Project (Textual)" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
