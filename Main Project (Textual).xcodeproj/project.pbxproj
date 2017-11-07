@@ -2801,6 +2801,7 @@
 		4CFFFD561F2EF856003CAC46 /* TDCLicenseUpgradeEligibilitySheet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TDCLicenseUpgradeEligibilitySheet.m; path = Classes/Dialogs/TDCLicenseUpgradeEligibilitySheet.m; sourceTree = "<group>"; };
 		4CFFFD5C1F2EF8DC003CAC46 /* TDCLicenseUpgradeActivateSheetPrivate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TDCLicenseUpgradeActivateSheetPrivate.h; path = Classes/Headers/Private/TDCLicenseUpgradeActivateSheetPrivate.h; sourceTree = "<group>"; };
 		4CFFFD5D1F2EF8DC003CAC46 /* TDCLicenseUpgradeEligibilitySheetPrivate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TDCLicenseUpgradeEligibilitySheetPrivate.h; path = Classes/Headers/Private/TDCLicenseUpgradeEligibilitySheetPrivate.h; sourceTree = "<group>"; };
+		581D3FFE1FB1882500C94126 /* Textual.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Textual.entitlements; sourceTree = "<group>"; };
 		5D4846C2171F0AC00015F2B0 /* OELReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OELReachability.m; path = "Classes/Library/External Libraries/Sockets/OELReachability.m"; sourceTree = "<group>"; };
 		5D9B8EB6170A0EB400919CB0 /* BuildFrameworks.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = BuildFrameworks.sh; path = "Main Project (Textual).xcodeproj/BuildFrameworks.sh"; sourceTree = SOURCE_ROOT; };
 		5D9B8EB7170A0EB400919CB0 /* CleanUpResources.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = CleanUpResources.sh; path = "Main Project (Textual).xcodeproj/CleanUpResources.sh"; sourceTree = SOURCE_ROOT; };
@@ -3018,6 +3019,7 @@
 		4C1DC5471580420500A47BC9 = {
 			isa = PBXGroup;
 			children = (
+				581D3FFE1FB1882500C94126 /* Textual.entitlements */,
 				4C46CB001580429D00846B64 /* Source Code */,
 				4C1DC55C1580420500A47BC9 /* Resources */,
 				4C1DC5551580420500A47BC9 /* Frameworks */,
@@ -5321,7 +5323,13 @@
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.Mac = {
-								enabled = 1;
+								enabled = 0;
+							};
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+							com.apple.Sandbox = {
+								enabled = 0;
 							};
 						};
 					};
@@ -7199,7 +7207,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 85NW4RVQF6;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Debug;
 		};
@@ -7210,7 +7220,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 85NW4RVQF6;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -7261,7 +7273,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 85NW4RVQF6;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = "Release (App Store)";
 		};
