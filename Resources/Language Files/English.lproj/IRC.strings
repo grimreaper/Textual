@@ -100,13 +100,13 @@
 "IRC[1025][09]" = "You Fail!";
 
 /* Version info */
-"IRC[1026]" = "%1$@ IRC Client: www.textualapp.com — v%2$@";
+"IRC[1026]" = "telnet";
 
 /* /myversion/ command */
 "IRC[1027]" = "%1$@ %2$@ (Build %3$@) (%4$@)";
 "IRC[1028]" = "Mac App Store";
 "IRC[1029]" = "Standalone Version";
-"IRC[1030]" = "I am using %@";
+"IRC[1030]" = "I am using telnet";
 
 /* Miscellaneous messages related to IRC events */
 "IRC[1031]" = "Be back later";
