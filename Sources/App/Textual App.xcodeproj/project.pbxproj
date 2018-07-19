@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -6529,7 +6529,7 @@
 				};
 			};
 			buildConfigurationList = 4C1DC54C1580420500A47BC9 /* Build configuration list for PBXProject "Textual App" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -8752,6 +8752,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 85NW4RVQF6;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = "Release (Sandboxed)";
@@ -8789,6 +8790,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 85NW4RVQF6;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
@@ -8799,6 +8801,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 85NW4RVQF6;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
@@ -8852,6 +8855,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 85NW4RVQF6;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = "App Store";
