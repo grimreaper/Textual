@@ -6509,7 +6509,6 @@
 						};
 					};
 					4C47314220C7599800713C91 = {
-						DevelopmentTeam = 8482Q6EPL6;
 						LastSwiftMigration = 1000;
 					};
 					4C5BA37216F1302F00A96CA2 = {
@@ -8760,6 +8759,10 @@
 		4C13442720C75C4900343AB7 /* Release (Sandboxed) */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85NW4RVQF6;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = "Release (Sandboxed)";
 		};
@@ -8809,18 +8812,30 @@
 		4C4733CA20C7599800713C91 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85NW4RVQF6;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
 		4C4733CB20C7599800713C91 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85NW4RVQF6;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
 		4C4733CC20C7599800713C91 /* App Store */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85NW4RVQF6;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = "App Store";
 		};
